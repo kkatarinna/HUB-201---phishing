@@ -36,7 +36,7 @@ MAIL FROM: attacker@gmail.com
 RCPT TO: victim@company.com
 DATA
 ```
-## Header
+## 2.  Header
 Header mejla sadrži informacije o pošiljaocu, primaocu, datumu i putanji mejla kroz servere, i predstavlja ključni deo za detekciju sumnjivih i zlonamernih poruka.
 **Osnovni delovi:**
 
@@ -57,7 +57,7 @@ Header mejla sadrži informacije o pošiljaocu, primaocu, datumu i putanji mejla
 
 ---
 
-## Body
+## 3. Body
 
 ### Plain text
 - Idealan za NLP klasifikaciju ili keyword scoring
@@ -69,7 +69,7 @@ Header mejla sadrži informacije o pošiljaocu, primaocu, datumu i putanji mejla
 
 ---
 
-## URL analiza
+##  4.1 URL analiza
 
 **Provera za svaki URL:**
 
@@ -88,7 +88,7 @@ Header mejla sadrži informacije o pošiljaocu, primaocu, datumu i putanji mejla
 
 ---
 
-## Attachments (Prilozi)
+## 4.2 Attachments (Prilozi)
 
 - Tip fajla (`.exe`, `.zip`, `.docm`)  
 - Ime fajla  
